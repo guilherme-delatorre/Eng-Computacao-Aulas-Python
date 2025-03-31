@@ -1,0 +1,91 @@
+#a = int(input('qual a velocidade do carro'))
+#b = int(a - 80) * 5
+#if a > 80:
+#    print(f'multado em {b}')
+#else:
+#    print('ta de boa')
+
+#a = input ('numero 1 ')
+#b = input ('numero 2 ')
+#c = input('numero 3 ')
+
+#if c> b and c > a:
+    #print (f' o maior é {c}')
+#if b > a and b > c:
+    #print (f' o maior é {b}')
+#if a > b and a > c:
+    #print (f' o maior é {a}')
+
+#if c< b and c < a:
+    #print (f' o menor é {c}')
+#if b < a and b < c:
+    #print (f' o menor é {b}')
+#if a < b and a < c:
+    #print (f' o menor é {a}')
+
+
+#a = int(input ('valor do salario '))
+#b = a * 0.10
+#c = a * 0.15
+
+#if a > 1250:
+#    print (b+a)
+#if a <= 1250:
+#    print (c+a)
+
+
+#a = int(input('quantos km deseja percorrer? '))
+#b = a * 0.50
+#c = a * 0.45
+#if a <= 200:
+#    print(b)
+#else:
+#    print(f'{c:.2f}')
+
+
+
+#a = float(input('escreva um numero '))
+#b = float(input('escreva outro numero '))
+#c = (input('qual operação deseja realizar?'))
+#if c == 'soma':
+#    print (a+b)
+#elif c == 'subtração':
+#    print (a-b)
+#elif c == 'multiplicação':
+  #  print (a*b)
+#elif c == 'divisão':
+ #   print (a/b)
+
+
+#a = int(input('qual o valor da casa? '))
+#b = int(input('qual seu salário? '))
+#c = int(input('quantos anos? '))
+
+#d = c * 12
+#e= a / d
+#f= b * 30/100
+#if e > f:
+#    print ('não podemos realizar o empréstimo')
+#else:
+#    print (f'{e:.2f}')
+
+
+a = int(input('qual a quantidade de kwh consumida? '))
+b = input('qual o tipo de instalação?')
+if b == 'r':
+    if a<=500:
+        print (a * 0.4)
+    if a>500:
+        print (a * 0.65)
+if b == 'c':
+    if a<=1000:
+        print (a * 0.55)
+    if a>1000:
+        print (a * 0.60)
+if b == 'i':
+    if a<=5000:
+        print (a * 0.55)
+    if a>5000:
+        print (a * 0.60)
+else:
+    print ('não temos essa opcao')
